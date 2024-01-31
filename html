@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="T-emperature.css" rel="stylesheet" />
+    <title>T-emperature</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        color: black;
+      }
+
+      body {
+        font-size: 14px;
+        line-height: 1.5;
+        color: #333;
+        margin: 0;
+      }
+      div {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <!--상단-->
+    <div id="header" class="header-wrapper">
+      <div class="inner container-fluid-at">
+        <div class="main-logo"><a href="#">T-emperature</a></div>
+        <ul class="right">
+          <li><a href="#">MY PAGE</a></li>
+          <li><a href="#">MY LIKE</a></li>
+          <li><a href="#">SHOPPING BAG</a></li>
+          <li><a href="#">LOGIN</a></li>
+        </ul>
+      </div>
+    </div>
+    <br />
+    <div id="main_category">
+      <ul class="left">
+        <li><a href="#">Best</a></li>
+        <li><a href="#">WOMEN</a></li>
+        <li><a href="#">MEN</a></li>
+        <li><a href="#">LookBook</a></li>
+        <li><a href="#">Event</a></li>
+      </ul>
+    </div>
+
+    <!-- Swiper -->
+    <swiper-container
+      class="mySwiper"
+      pagination="true"
+      pagination-clickable="true"
+      navigation="true"
+      space-between="30"
+      centered-slides="true"
+      autoplay-delay="2500"
+      autoplay-disable-on-interaction="false"
+    >
+      <swiper-slide><a href="#"><img src="Office_main.jpg"></a></swiper-slide>
+      <swiper-slide><a href="#"><img src="Party_main.jpg"></a></swiper-slide>
+      <swiper-slide><a href="#"><img src="Travel_main.jpg"></a></swiper-slide>
+      <swiper-slide><a href="#"><img src="Winter_main.jpg"></a></swiper-slide>
+      <swiper-slide><a href="#"><img src="Rain-main.jpg"></a></swiper-slide>      
+      <swiper-slide><a href="#"><img src="Knit_main.jpg"></a></swiper-slide>
+
+
+      <div class="autoplay-progress" slot="container-end">
+        <svg viewBox="0 0 48 48">
+          <circle cx="24" cy="24" r="20"></circle>
+        </svg>
+        <span></span>
+      </div>
+    </swiper-container>
+    <link href="Swiper.css" rel="stylesheet" />
+    <!--Swiper JS-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    ;
+    <!--Initialize Swiper-->
+    <script>
+      const progressCircle = document.querySelector(".autoplay-progress svg");
+      const progressContent = document.querySelector(".autoplay-progress span");
+
+      const swiperEl = document.querySelector("swiper-container");
+      swiperEl.addEventListener("autoplaytimeleft", (e) => {
+        const [swiper, time, progress] = e.detail;
+        progressCircle.style.setProperty("--progress", 1 - progress);
+        progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+      });
+    </script>
+  </body>
+</html>
