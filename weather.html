@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T-emperature_place</title>
+    <link rel="stylesheet" href="weather.css" />
+  </head>
+  <body>
+    <!--<h1>Weather Dashboard</h1>-->
+    <div class="container">
+      <div class="weather-input">
+        <h3>지역을 입력해주세요</h3>
+        <input
+          class="city-input"
+          type="text"
+          placeholder="E.g., Seoul, Incheon, Busan"
+        />
+        <button class="search-btn">검색</button>
+        <div class="separator"></div>
+        <button class="location-btn">현재 위치 날씨</button>
+      </div>
+      <div class="weather-data">
+        <div class="current-weather">
+          <div class="details">
+            <!--기본값이 현재위치로 설정될 수 있도록-->
+            <h2>_______ ( ______ )</h2>
+            <h6>Temperature: __°C</h6>
+            <h6>Wind: __ M/S</h6>
+            <h6>rain: __mm</h6>
+            <h6>snow: __mm</h6>
+          </div>
+        </div>
+        <!--
+              <li class="card">
+              <h3>( __날짜___ )</h3>
+              <h6>온도: __C</h6>
+              <h6>바람: __ M/S</h6>
+              <h6>강수량: __mm</h6>
+              <h6>강수확률: __%</h6>
+            </li>
+        -->
+        <!--10days weather로 바꾸기-->
+        <div class="days-forecast">
+          <h2>7-Day Forecast</h2>
+          <ul class="weather-cards">
+            <li class="card">
+              <h3>( ______ )</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>rain: __mm</h6>
+              <h6>snow: __mm</h6>
+            </li>
+            <li class="card">
+              <h3>( ______ )</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>rain: __mm</h6>
+              <h6>snow: __mm</h6>
+            </li>
+            <li class="card">
+              <h3>( ______ )</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>rain: __mm</h6>
+              <h6>snow: __mm</h6>
+            </li>
+            <li class="card">
+              <h3>( ______ )</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>rain: __mm</h6>
+              <h6>snow: __mm</h6>
+            </li>
+            <li class="card">
+              <h3>( ______ )</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>rain: __mm</h6>
+              <h6>snow: __mm</h6>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="weather.js"></script>
+  </body>
+</html>
