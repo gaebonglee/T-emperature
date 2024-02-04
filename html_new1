@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="T-emperature.css" />
+    <link rel="stylesheet" href="slider0.css" />
+    <title>T°c</title>
+  </head>
+  <body>
+    <!--header-->
+    <div id="header" class="head_wrapper">
+      <div class="category_contents">
+        <h1 class="logo">
+          <a href="" class="main_link"
+            ><img src="main_logo.jpg" width="85"
+          /></a>
+        </h1>
+        <div class="right_category">
+          <ul>
+            <li><a href="#">MY PAGE</a></li>
+            <li><a href="#">MY LIKE</a></li>
+            <li><a href="#">SHOPPING BAG</a></li>
+            <li><a href="#">LOGIN</a></li>
+          </ul>
+        </div>
+        <div class="left_top_category">
+          <ul>
+            <li><a href="#">Best</a></li>
+            <li><a href="#">WOMEN</a></li>
+            <li><a href="#">MEN</a></li>
+            <li><a href="#">LookBook</a></li>
+            <li><a href="#">T-emperature</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--header-->
+    <!--main slide-->
+    <section id="main">
+      <div class="container">
+        <div class="swiper main-slider">
+          <div class="swiper-wrapper">
+            <!-- Slide-start 1-->
+            <div class="swiper-slide main-slide">
+              <div class="main-slide-img">
+                <img src="main_winter.jpg" alt="main-img" />
+              </div>
+              <div class="main-slide-content">
+                <h1 id="img-text" class="img-1-text">
+                  <a href="#">SEASON OFF</a>
+                </h1>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start 2-->
+            <div class="swiper-slide main-slide">
+              <div class="main-slide-img">
+                <img src="main_campus2.jpg" alt="main-img" />
+              </div>
+              <div class="main-slide-content">
+                <h1 id="img-text" class="img-2-text"><a></a></h1>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start 3-->
+            <div class="swiper-slide main-slide">
+              <div class="main-slide-img">
+                <img src="main_travel.jpg" alt="main-img" />
+              </div>
+              <div class="main-slide-content">
+                <h1 id="img-text" class="img-3-text">
+                  <a href="#">트래블과 함께 떠나는 여행</a>
+                </h1>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start 4-->
+            <div class="swiper-slide main-slide">
+              <div class="main-slide-img">
+                <img src="main_party.jpg" alt="main-img" />
+              </div>
+              <div class="main-slide-content">
+                <h1 id="img-text" class="img-4-text">
+                  <a href="#">오드룩 ~15%</a>
+                </h1>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start 5-->
+            <div class="swiper-slide main-slide">
+              <div class="main-slide-img">
+                <img src="main_flat.jpg" alt="main-img" />
+              </div>
+              <div class="main-slide-content">
+                <h1 id="img-text" class="img-5-text">
+                  <a href="#">락피쉬웨더웨어 24 S/S</a>
+                </h1>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start 6-->
+            <div class="swiper-slide main-slide">
+              <div class="main-slide-img">
+                <img src="main_rain.jpg" alt="main-img" />
+              </div>
+              <div class="main-slide-content">
+                <h1 id="img-text" class="img-6-text"><a></a></h1>
+              </div>
+            </div>
+            <!-- Slide-end -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="slider0.js"></script>
+    <!--main slide-->
+    <!--footer-->
+    <footer>
+      <div class="footer">
+        <div class="cs_section">
+          <div class="cs_center">
+            <p class="top">고객센터 1588-1588</p>
+            <p class="bottom">
+              운영시간 : 평일 09:00 - 17:30 (점심시간 12:00 - 13 : 00 제외)
+            </p>
+          </div>
+        </div>
+        <div class="footer_middle">
+          <div class="menu_section">
+            <ul>
+              <li>
+                <h3>NOTICE</h3>
+                <a>~</a>
+                <a>~</a>
+              </li>
+              <li>
+                <h3>ABOUT US</h3>
+                <a>T-emperature 소개</a>
+                <a>인재채용</a>
+              </li>
+              <li>
+                <h3>MY ORDER</h3>
+                <a>주문배송</a>
+                <a>취소/교환/반품/내역</a>
+              </li>
+              <li>
+                <h3>MY ACCOUNT</h3>
+                <a>회원정보수정</a>
+                <a>회원등급</a>
+                <a>마일리지 현황</a>
+                <a>쿠폰</a>
+              </li>
+              <li>
+                <h3>HELP</h3>
+                <a>1:1 문의내역</a>
+                <a>공지사항</a>
+                <a>FAQ</a>
+                <a>고객의소리</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_info">
+            <div class="documentation">
+              <a>개인정보처리방침</a>
+              <a>이용약관</a>
+            </div>
+            <div class="business">
+              <p>
+                상호명 : 주식회사 T-emperatur (T°C) &nbsp;&nbsp;사업장 소재지 :
+                서울특별시 강남구 역삼동 언주로 508 서울상록빌딩 (역삼동 71)
+              </p>
+              <p>
+                팩스 : 070-0000-0000 &nbsp;&nbsp;사업자 등록번호 : 01234-56789
+                &nbsp;&nbsp;통신판매업신고 : 2024-서울강남-00000
+              </p>
+              <p>
+                전화번호 : 1588-1588 &nbsp;&nbsp;이메일 :
+                customer@T-emperature.com &nbsp;&nbsp;대표 : 이가영
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--footer-->
+  </body>
+</html>
