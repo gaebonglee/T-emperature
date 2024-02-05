@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion Platform</title>
+    <link rel="stylesheet" href="T-emperature.css" />
+    <link rel="stylesheet" href="weather.css" />
+  </head>
+  <body>
+    <!--header-->
+    <div id="header" class="head_wrapper">
+      <div class="category_contents">
+        <h1 class="logo">
+          <a href="T-emperature.html" class="main_link"
+            ><img src="main_logo.jpg" width="85"
+          /></a>
+        </h1>
+        <div class="right_category">
+          <ul>
+            <li><a href="#">MY PAGE</a></li>
+            <li><a href="#">MY LIKE</a></li>
+            <li><a href="#">SHOPPING BAG</a></li>
+            <li><a href="#">LOGIN</a></li>
+          </ul>
+        </div>
+        <div class="left_top_category">
+          <ul>
+            <li><a href="#">Best</a></li>
+            <li><a href="#">WOMEN</a></li>
+            <li><a href="#">MEN</a></li>
+            <li><a href="#">LookBook</a></li>
+            <li><a href="#">T-emperature</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--header-->
+    <!--section-->
+
+    <div class="weather_container">
+      <div class="weather-input">
+        <h3>지역을 입력하세요</h3>
+        <input
+          class="city-input"
+          type="text"
+          placeholder="E.g., Seoul, Incheon, Busan"
+        />
+        <button class="search-btn">검색</button>
+        <div class="separator"></div>
+        <button class="location-btn">현재위치 날씨</button>
+        <div class="move_btn">
+          <button class="move_page">
+            <a href="choose_one.html"
+              >T-emperature<br />
+              이용하기</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="weather-data">
+        <div class="current-weather">
+          <ul class="details">
+            <li>위치 ( 오늘 날짜 )</li>
+            <li>온도: __°C</li>
+            <li>바람: __ M/S</li>
+            <li>강수량: __mm</li>
+            <li>강수확률: __%</li>
+          </ul>
+        </div>
+        <div class="days-forecast">
+          <h2>5-Day Forecast</h2>
+          <div class="weather-cards">
+            <ul class="card">
+              <li id="plus_day">( + 1일 )</li>
+              <li>온도: __°C</li>
+              <li>바람: __ M/S</li>
+              <li>강수량: __mm</li>
+              <li>강수확률: __%</li>
+            </ul>
+            <ul class="card">
+              <li id="plus_day">( + 2일 )</li>
+              <li>온도: __°C</li>
+              <li>바람: __ M/S</li>
+              <li>강수량: __mm</li>
+              <li>강수확률: __%</li>
+            </ul>
+            <ul class="card">
+              <li id="plus_day">( + 3일 )</li>
+              <li>온도: __°C</li>
+              <li>바람: __ M/S</li>
+              <li>강수량: __mm</li>
+              <li>강수확률: __%</li>
+            </ul>
+            <ul class="card">
+              <li id="plus_day">( +4일 )</li>
+              <li>온도: __°C</li>
+              <li>바람: __ M/S</li>
+              <li>강수량: __mm</li>
+              <li>강수확률: __%</li>
+            </ul>
+            <ul class="card">
+              <li id="plus_day">( +5일 )</li>
+              <li>온도: __°C</li>
+              <li>바람: __ M/S</li>
+              <li>강수량: __mm</li>
+              <li>강수확률: __%</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--section-->
+    <!--footer-->
+    <footer>
+      <div class="footer">
+        <div class="cs_section">
+          <div class="cs_center">
+            <p class="top">고객센터 1588-1588</p>
+            <p class="bottom">
+              운영시간 : 평일 09:00 - 17:30 (점심시간 12:00 - 13 : 00 제외)
+            </p>
+          </div>
+        </div>
+        <div class="footer_middle">
+          <div class="menu_section">
+            <ul>
+              <li>
+                <h3>NOTICE</h3>
+                <a>~</a>
+                <a>~</a>
+              </li>
+              <li>
+                <h3>ABOUT US</h3>
+                <a>T-emperature 소개</a>
+                <a>인재채용</a>
+              </li>
+              <li>
+                <h3>MY ORDER</h3>
+                <a>주문배송</a>
+                <a>취소/교환/반품/내역</a>
+              </li>
+              <li>
+                <h3>MY ACCOUNT</h3>
+                <a>회원정보수정</a>
+                <a>회원등급</a>
+                <a>마일리지 현황</a>
+                <a>쿠폰</a>
+              </li>
+              <li>
+                <h3>HELP</h3>
+                <a>1:1 문의내역</a>
+                <a>공지사항</a>
+                <a>FAQ</a>
+                <a>고객의소리</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_info">
+            <div class="documentation">
+              <a>개인정보처리방침</a>
+              <a>이용약관</a>
+            </div>
+            <div class="business">
+              <p>
+                상호명 : 주식회사 T-emperatur (T°C) &nbsp;&nbsp;사업장 소재지 :
+                서울특별시 강남구 역삼동 언주로 508 서울상록빌딩 (역삼동 71)
+              </p>
+              <p>
+                팩스 : 070-0000-0000 &nbsp;&nbsp;사업자 등록번호 : 01234-56789
+                &nbsp;&nbsp;통신판매업신고 : 2024-서울강남-00000
+              </p>
+              <p>
+                전화번호 : 1588-1588 &nbsp;&nbsp;이메일 :
+                customer@T-emperature.com &nbsp;&nbsp;대표 : 이가영
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--footer-->
+    <script src="weather.js"></script>
+  </body>
+</html>
