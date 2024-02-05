@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+.button {
+  text-align: center;
+}
+
+.weather_container {
+  display: flex;
+  gap: 35px;
+  padding: 3rem 8rem;
+}
+.weather-input {
+  width: 550px;
+}
+.weather-input input {
+  height: 46px;
+  width: 100%;
+  outline: none;
+  font-size: 1.07rem;
+  padding: 0 17px;
+  margin: 10px 0 20px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.weather-input input:focus {
+  padding: 0 16px;
+  border: 2px solid #2d2d2d;
+}
+.weather-input .separator {
+  height: 1px;
+  width: 100%;
+  margin: 25px 0;
+  background: #bbbbbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.weather-input .separator::before {
+  content: "OR";
+  color: #6b6b6b;
+  font-size: 1rem;
+  padding: 0 15px;
+  margin-top: -4px;
+  background: #ffffff;
+}
+.weather-input .search-btn,
+.weather-input .location-btn {
+  width: 100%;
+  padding: 10px 0;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+  background: #d2d2d2;
+  transition: 0.2s ease;
+}
+
+.weather-input .search-btn:hover,
+.weather-input .location-btn:hover {
+  background: #000000;
+  color: white;
+}
+
+.move_btn {
+  padding-top: 3rem;
+  border-color: 1px;
+}
+
+.move_btn .move_page {
+  width: 100%;
+  height: 5rem;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: rgb(255, 255, 255);
+  background: #000000;
+  transition: 0.2s ease;
+}
+.move_btn .move_page:hover {
+  background: #ff8c00;
+  color: black;
+  border-color: #ff8c00;
+}
+
+.move_btn .move_page a {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+/*오른쪽 검색창 및 5일 날씨화면*/
+.weather-data {
+  width: 100%;
+}
+.weather-data .current-weather {
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 20px 70px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.current-weather ul li {
+  color: rgb(50, 50, 50);
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.weather-data h6 {
+  margin-top: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.current-weather .icon {
+  text-align: center;
+}
+.current-weather .icon img {
+  max-width: 120px;
+  margin-top: -15px;
+}
+.current-weather .icon h6 {
+  margin-top: -10px;
+  text-transform: capitalize;
+}
+.days-forecast h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.35rem;
+}
+.days-forecast .weather-cards {
+  display: flex;
+  gap: 10px;
+}
+.weather-cards .card {
+  color: #fff;
+  padding: 18px 16px;
+  list-style: none;
+  width: calc(100% / 5);
+  background: #e9e9e9;
+  border-radius: 5px;
+}
+.weather-cards .card li {
+  color: rgb(25, 25, 25);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#plus_day {
+  font-size: 18px;
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+.weather-cards .card img {
+  max-width: 70px;
+  margin: 5px 0 -12px 0;
+}
+
+@media (max-width: 1400px) {
+  .weather-data .current-weather {
+    padding: 20px;
+  }
+  .weather-cards {
+    flex-wrap: wrap;
+  }
+  .weather-cards .card {
+    width: calc(100% / 4 - 15px);
+  }
+}
+@media (max-width: 1200px) {
+  .weather-cards .card {
+    width: calc(100% / 3 - 15px);
+  }
+}
+@media (max-width: 950px) {
+  .weather-input {
+    width: 450px;
+  }
+  .weather-cards .card {
+    width: calc(100% / 2 - 10px);
+  }
+}
+@media (max-width: 750px) {
+  h1 {
+    font-size: 1.45rem;
+    padding: 16px 0;
+  }
+  .container {
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+  .weather-input {
+    width: 100%;
+  }
+  .weather-data h2 {
+    font-size: 1.35rem;
+  }
+}
