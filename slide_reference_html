@@ -1,0 +1,96 @@
+       <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+ <!--main slide-->
+    <section id="main">
+        <div class="container">
+          <div class="swiper main-slider">
+            <div class="swiper-wrapper">
+              <!-- Slide-start 1-->
+              <div class="swiper-slide main-slide">
+                <div class="main-slide-img">
+                  <img src="main_winter.jpg" alt="main-img"/>
+                </div>
+                <div class="main-slide-content">
+                  <h1 id="img-text" class="img-1-text">
+                    <a  href="#">SEASON OFF</a>
+                  </h1>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start 2-->
+              <div class="swiper-slide main-slide">
+                <div class="main-slide-img">
+                  <img src="main_campus2.jpg" alt="main-img" href="#"/>
+                </div>
+                <div class="main-slide-content">
+                  <h1 id="img-text" class="img-2-text">
+                    <a  href="#">DUNST <br> 2024 CAMPUS LOOK <br> ~10%</a></h1>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start 3-->
+              <div class="swiper-slide main-slide">
+                <div class="main-slide-img">
+                  <img src="main_travel.jpg" alt="main-img"/>
+                </div>
+                <div class="main-slide-content">
+                  <h1 id="img-text" class="img-3-text">
+                    <a  href="travel.html">TRAVEL<br>windbreaker</a>
+                  </h1>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start 4-->
+              <div class="swiper-slide main-slide">
+                <div class="main-slide-img">
+                  <img src="main_party.jpg" alt="main-img" href="#"/>
+                </div>
+                <div class="main-slide-content">
+                  <h1 id="img-text" class="img-4-text">
+                    <a  href="#">Party<br>with<br>OverDue Flair</a>
+                  </h1>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start 5-->
+              <div class="swiper-slide main-slide">
+                <div class="main-slide-img">
+                  <img src="main_flat.jpg" alt="main-img" href="#"/>
+                </div>
+                <div class="main-slide-content">
+                  <h1 id="img-text" class="img-5-text">
+                    <a  href="#">Scrunch<br>Flat<br>24S/S NEW</a>
+                  </h1>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start 6-->
+              <div class="swiper-slide main-slide">
+                <div class="main-slide-img">
+  
+                  <img src="main_rain.jpg"  alt="main-img" href="#"/>
+                </div>
+                <div class="main-slide-content">
+                  <h1 id="img-text" class="img-6-text">
+                    <a   href="#" class="top">RAINY DAY</a></h1>
+                </div>
+              </div>
+              <!-- Slide-end -->
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      ></script>
+      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+      <!--main slide-->
