@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+#main {
+  margin: 0 4rem;
+  padding-top: 1rem;
+  position: relative;
+}
+
+.container {
+  max-width: 124rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 1440px) {
+  #tranding {
+    padding: 7rem 0;
+  }
+}
+
+#main .main-slider {
+  height: 52rem;
+  position: relative;
+}
+
+@media (max-width: 500px) {
+  #main .main-slider {
+    height: 45rem;
+  }
+}
+
+.main-slide {
+  width: 37rem;
+  height: 42rem;
+  position: relative;
+}
+
+@media (max-width: 500px) {
+  .main-slide {
+    width: 28rem !important;
+    height: 36rem !important;
+  }
+  .main-slide .main-slide-img img {
+    width: 28rem !important;
+    height: 36rem !important;
+    cursor: pointer;
+  }
+}
+
+.main-slide .main-slide-img img {
+  width: 37rem;
+  height: 42rem;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+.main-slide .main-slide-content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#img-text a {
+  position: absolute;
+}
+
+.img-1-text a {
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(255, 255, 255),
+    0 0 0.2em rgb(255, 255, 255);
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  top: 200px;
+  left: 30px;
+}
+
+.img-2-text a {
+  font-size: 20px;
+  text-align: center;
+  top: 100px;
+  left: 190px;
+}
+
+.img-3-text a {
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  left: 150px;
+  top: 275px;
+}
+
+.img-4-text a {
+  text-shadow: 1px 1px 10px rgb(116, 91, 71);
+  font-size: 29px;
+  left: 20px;
+  top: 100px;
+}
+
+.img-5-text a {
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  left: 150px;
+  top: 275px;
+}
+
+.img-6-text a {
+  text-align: center;
+  color: white;
+  left: 100px;
+  top: 275px;
+  font-size: 70px;
+}
+
+
+<!--JS-->
+var MainSlider = new Swiper(".main-slider", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    loop: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 150,
+      modifier: 2.5,
+    },
+  });
+  
