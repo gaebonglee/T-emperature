@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="T-emperature.css" />
+    <link rel="stylesheet" href="T-slider.css" />
+    <title>T°c</title>
+  </head>
+  <body>
+      <!--header-->
+      <header>
+        <div class="header-top mobile-hide">
+          <div class="header_container">
+            <div class="wrapper flexitem">
+              <div class="left">
+                <div class="main_logo">
+                  <a href="T-emperature.html" class="main_link"
+                    ><img src="main_logo.jpg" width="85"
+                  /></a>
+                </div>
+              </div>
+              <div class="right">
+                <ul class="flexitem second-links">
+                  <li>
+                    <a href="#">
+                      <div class="icon-large">
+                        <i class="ri-user-line"></i>
+                      </div>
+                      <strong class="icon_text">My page</strong>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="icon-large">
+                        <i class="ri-heart-3-line"></i>
+                        <div class="fly-item">
+                          <span class="item-number">0</span>
+                        </div>
+                      </div>
+                      <strong class="icon_text">My like</strong>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="iscart">
+                      <div class="icon-large">
+                        <i class="ri-shopping-bag-line"></i>
+                        <div class="fly-item">
+                          <span class="item-number">0</span>
+                        </div>
+                      </div>
+                      <strong class="icon_text">Shopping bag</strong>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="icon-large">
+                        <i class="ri-login-box-line"></i>
+                      </div>
+                      <strong class="icon_text">Login</strong>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--header-top-->
+        <div class="header-nav">
+          <div class="header_container">
+            <div class="wrapper flexitem">
+              <a href="#" class="trigger desktop-hide">
+                <span class="i"><span class="ri-menu-2-line"></span></span
+              ></a>
+              <div class="left flexitem">
+                <nav class="mobile-hide">
+                  <ul class="flexitem second-links">
+                    <li><a href="#">Best</a></li>
+                    <li class="has-child">
+                      <a href="#"
+                        >Women
+                        <div class="icon-small">
+                          <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                      </a>
+                      <div class="mega">
+                        <div class="container">
+                          <div class="wrapper">
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>의류</h4>
+                                <ul>
+                                  <li><a href="#">ALL</a></li>
+                                  <li><a href="#">상의</a></li>
+                                  <li><a href="#">바지</a></li>
+                                  <li><a href="#">치마</a></li>
+                                  <li><a href="#">스커트</a></li>
+                                  <li><a href="#">원피스</a></li>
+                                  <li><a href="#">셋업</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>신발</h4>
+                                <ul>
+                                  <li><a href="#">ALL</a></li>
+                                  <li><a href="#">플랫, 로퍼</a></li>
+                                  <li><a href="#">부츠</a></li>
+                                  <li><a href="#">펌프스</a></li>
+                                  <li><a href="#">샌들</a></li>
+                                  <li><a href="#">슬리퍼, 뮬</a></li>
+                                  <li><a href="#">스니커즈</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>악세서리</h4>
+                                <ul>
+                                  <li><a href="#">ALL</a></li>
+                                  <li><a href="#">주얼리</a></li>
+                                  <li><a href="#">모자</a></li>
+                                  <li><a href="#">시계</a></li>
+                                  <li><a href="#">아이웨어</a></li>
+                                  <li><a href="#">벨트</a></li>
+                                  <li><a href="#">지갑, 카드케이스</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="flexcol">
+                              <div class="row">
+                                <h4>Top Brands</h4>
+                                <ul class="women-brands">
+                                  <li><a href="#">DUNST</a></li>
+                                  <li><a href="#">MATIN KIM</a></li>
+                                  <li><a href="#">URAGO</a></li>
+                                  <li><a href="#">LOEUVRE</a></li>
+                                  <li><a href="#">TILLIDIE</a></li>
+                                  <li><a href="#">SIYAZU</a></li>
+                                  <li><a href="#">CELITAILS</a></li>
+                                </ul>
+                                <a href="#" class="view-all"
+                                  >View all brands<i
+                                    class="ri-arrow-right-line"
+                                  ></i
+                                ></a>
+                              </div>
+                            </div>
+                            <div class="flexcol products">
+                              <div class="row">
+                                <div class="media">
+                                  <div class="theumbnail">
+                                    <img src="a.jpg" alt="" />
+                                  </div>
+                                </div>
+                                <div class="text-content">
+                                  <h4>Most wanted!</h4>
+                                  <a href="#" class="primary-button"
+                                    >Order Now</a
+                                  >
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Men
+                        <div class="icon-small">
+                          <i class="ri-arrow-down-s-line"></i></div
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#">Look Book </a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >T-emperature
+                        <div class="fly-item">
+                          <span>New!</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="right">
+                <div class="search-box">
+                  <form action="" class="search">
+                    <input type="search" placeholder="Search for products" />
+                    <button type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+<!--header-->
+<!--main-slider-->
+    <div class="cards_wrapper">
+      <div class="cards_container">
+        <input type="radio" class="cards_input" name="slide" id="c1" checked />
+        <label for="c1" class="card">
+          <div class="row">
+            <div class="card_title">MATIN KIM</div>
+            <div class="card_text">
+              <h4>Matin Kim</h4>
+              <p>2024 SPRING "ON THE PATH"</p>
+            </div>
+          </div>
+        </label>
+        <input type="radio" name="slide" id="c2" />
+        <label for="c2" class="card">
+          <div class="row">
+            <div class="card_title">HAE BY HAEKIM</div>
+            <div class="card_text">
+              <h4>HAE BY HAEKIM</h4>
+              <p>2023 WINTER COLLECTION</p>
+            </div>
+          </div>
+        </label>
+        <input type="radio" name="slide" id="c3" />
+        <label for="c3" class="card">
+          <div class="row">
+            <div class="card_title">ROCKFISH WEATHERWEAR</div>
+            <div class="card_text">
+              <h4>Rockfish Weatherwear</h4>
+              <p>2024 S/S shoes</p>
+            </div>
+          </div>
+        </label>
+        <input type="radio" name="slide" id="c4" />
+        <label for="c4" class="card">
+          <div class="row">
+            <div class="card_title">TRAVEL</div>
+            <div class="card_text">
+              <h4>Travel</h4>
+              <p>Under The Cascade</p>
+            </div>
+          </div>
+        </label>
+        <input type="radio" name="slide" id="c5" />
+        <label for="c5" class="card">
+          <div class="row">
+            <div class="card_title">THOMAS MORE</div>
+            <div class="card_text">
+              <h4>THOMAS MORE</h4>
+              <p>Monochrome Nostalgia</p>
+            </div>
+          </div>
+        </label>
+        <input type="radio" name="slide" id="c6" />
+        <label for="c6" class="card">
+          <div class="row">
+            <div class="card_title">OVERDUE FLAIR</div>
+            <div class="card_text">
+              <h4>Overdue Flair</h4>
+              <p>2024 SPRING COLLECTION</p>
+            </div>
+          </div>
+        </label>
+      </div>
+    </div>
+<!--main-slider-->
+<!--footer-->
+    <footer>
+      <div class="footer">
+        <div class="cs_section">
+          <div class="cs_center">
+            <p class="top">고객센터 1588-1588</p>
+            <p class="bottom">
+              운영시간 : 평일 09:00 - 17:30 (점심시간 12:00 - 13 : 00 제외)
+            </p>
+          </div>
+        </div>
+
+      <div class="footer_middle">
+          <div class="menu_section">
+            <div class="notice_menu">
+              <ul>
+                <li>
+                  <h3>NOTICE</h3>
+                  <span>
+                    <a
+                      >[공지] 29CM 시스템 오류로 인한 등급 쿠폰 지연 지급
+                      안내</a
+                    ><br />
+                    <a>[공지] 설 연휴 고객센터 휴무 및 배송/반품 일정 안내</a
+                    ><br />
+                    <a
+                      >[공지] 현대카드 12개월 무이자 할부 관련 변경 안내</a
+                    ><br />
+                    <a
+                      >[공지] T°C 개인정보 처리방침 개정 사전 안내</a
+                    ><br />
+                    <a>[공지] T°C 개인정보 처리방침 개정 사전 안내</a>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          <div class="other_menu">
+            <ul>
+              <li>
+                <h3>ABOUT US</h3>
+                <span>
+                  <a>T-emperature 소개</a><br />
+                  <a>인재채용</a>
+                </span>
+              </li>
+              <li>
+                <h3>MY ORDER</h3>
+                <span>
+                  <a>주문배송</a><br />
+                  <a>취소/교환/반품/내역</a>
+                </span>
+              </li>
+              <li>
+                <h3>MY ACCOUNT</h3>
+                <span>
+                  <a>회원정보수정</a><br />
+                  <a>회원등급</a><br />
+                  <a>마일리지 현황</a><br />
+                  <a>쿠폰</a>
+                </span>
+              </li>
+              <li>
+                <h3>HELP</h3>
+                <span>
+                  <a>1:1 문의내역</a><br />
+                  <a>공지사항</a><br />
+                  <a>FAQ</a><br />
+                  <a>고객의소리</a></span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer_info">
+            <div class="documentation">
+              <a>개인정보처리방침</a>
+              <a>이용약관</a>
+            </div>
+            <div class="business">
+              <p>
+                상호명 : 주식회사 T-emperatur (T°C) &nbsp;&nbsp;사업장 소재지 :
+                서울특별시 강남구 역삼동 언주로 508 서울상록빌딩 (역삼동 71)
+              </p>
+              <p>
+                팩스 : 070-0000-0000 &nbsp;&nbsp;사업자 등록번호 : 01234-56789
+                &nbsp;&nbsp;통신판매업신고 : 2024-서울강남-00000
+              </p>
+              <p>
+                전화번호 : 1588-1588 &nbsp;&nbsp;이메일 :
+                customer@T-emperature.com &nbsp;&nbsp;대표 : 이가영
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--footer-->
+    <script src="slider.js"></script>
+  </body>
+</html>
